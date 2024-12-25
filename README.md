@@ -6,9 +6,12 @@ Facial Emotion Recognition (FER) is a technology that uses AI to identify human 
 ## Features
 - **Pruning**: Reduces the size of the model by removing unnecessary weights, improving performance without significant loss of accuracy.
 - **Quantization**: Converts the model to use lower precision, reducing memory usage and increasing inference speed.
+    in the Quantization parts, I used Quantization codes in "https://github.com/StevenHSKim/FER-Jetson-Nano"! 
+    Special thanks to StevenHSKim!
+
 
 ## Requirements
-- **Hardware**: Jetson Nano or Apple silicon (i used M4)
+- **Hardware**: Jetson Nano or Apple silicon (I used M4)
 - **Software**:
   - Python 3.8
   - TensorFlow
@@ -29,7 +32,7 @@ Facial Emotion Recognition (FER) is a technology that uses AI to identify human 
     please use ipynb file to train the model,
     or you can use the trained model in the model folder
 3. **Run the FER model**:
-   Also you can use this code in jetson nano to run the model.
+   Also, you can use this code in Jetson Nano to run the model.
 
 ## Contributing
 We welcome contributions! If you have suggestions or improvements, please fork the repository and submit a pull request. Ensure your code follows the project's coding standards and includes appropriate tests.
