@@ -21,7 +21,7 @@ Facial Emotion Recognition (FER) is a technology that uses AI to identify human 
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/FER-with-jetson-nano.git
+   git clone https://github.com/suwanly/FER-with-jetson-nano.git
    ```
 2. **Navigate to the project directory**
 3. **Install the required packages**
